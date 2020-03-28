@@ -1,0 +1,93 @@
+body{
+    background-image: url(../img/bg-image2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+
+}
+* {
+    box-sizing: border-box;
+}
+.ii{
+    margin-bottom: -22px;
+}
+
+.container{
+    max-width: 300px;
+    
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.733);
+    position: fixed;
+    
+    
+    /* vertical and horizontal center aligning */
+    top: 30%; 
+    left: 50%; 
+    margin-top: -100px; 
+    margin-left: -100px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.88;
+    margin-left: 91px;
+    text-decoration: none;
+    
+}
+.btn:hover{
+    opacity: 1;
+}
+
+@media only screen and (max-width: 420px){
+    body{
+        background-image: url(../img/bg-image2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: darkblue;
+        font-size: x-large;
+    }
+    .ii{
+        margin-bottom: -30px;
+    }
+   
+    * {
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 300px;
+        
+        padding: 16px;
+        background-color: rgba(255, 255, 255, 0.733);
+        position: fixed;
+        
+        
+        /* vertical and horizontal center aligning */
+        top: 30%; 
+        left: 50%; 
+        margin-top: -100px; 
+        margin-left: -100px;
+    }
+    
+    .btn{
+        background-color: blue;
+        color: white;
+        padding: 5px 7px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.88;
+        margin-left: 91px;
+        text-decoration: none;
+    }
+    .btn:hover{
+        opacity: 1;
+    }
+    
+}
